@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact.html</title>
+    <link rel="shortcut icon" href="contact favicon.png" type="image/x-icon">
+    <!-- Linking CSS -->
+     <link rel="stylesheet" href="contact.css">
+    <!--Tailwind CSS CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="md:flex justify-around p-5">
+    <div class="p-5 " class="md:w-10">
+
+        <h1 class="text-3xl font-serif font-bold">Let's Work Together!</h1>
+        <p class="text-gray-500 md:w-72 pt-5">Have some big idea or brand to develop and need help? Then reach out we'd love to
+            hear about your project and provide help.</p>
+
+        <div >
+            <h3 class="font-bold font-serif mt-10">Email</h3>
+            <div class="flex flex-row gap-5 pl-10 items-center mt-2">
+
+                <a href="mailto:yourname@example.com?subject=Inquiry from Website" >
+                    <i class="fa fa-envelope  text-xl cursor-pointer scale-icon mr-2" title="Send Email" style="color: rgb(95, 188, 188);"></i><p class="text-gray-500 inline cursor-default">thilagaec1@gmail.com</p>
+                    
+                  </a>
+
+            </div>
+        </div>
+        <div>
+            <h3 class="font-bold font-serif mt-10 ">Socials</h3>
+            <div class="flex  gap-2 pl-10 items-center mt-3">
+               <a href="https://www.linkedin.com/in/thilagap/" target="_blank"><i class="fa-brands fa-linkedin text-2xl scale-icon" style="color: rgb(95, 188, 188);"></i></a> 
+               <a href="https://x.com/" target="_blank"><i class="fa-brands fa-square-x-twitter text-2xl scale-icon" style="color: rgb(95, 188, 188);"></i></a> 
+               <a href="https://www.goodreads.com/user/show/129479473-thilaga-pannerselvam" target="_blank"><i class="fa-brands fa-goodreads text-2xl scale-icon" style="color: rgb(95, 188, 188);"></i></a>
+            </div>
+
+        </div>
+    </div>
+
+   
+    <div>
+        <form action="#">
+            <legend>
+        <div class="w-80 flex flex-col gap-3 mt-5">
+
+            <div class="flex items-center justify-center gap-1 border border-gray-400 p-1 rounded-xl"><i class="fa-solid fa-user text-xl" style="color: #74C0FC;"></i><input type="text" placeholder="Name" id="nameInput" class=" p-2 rounded-lg w-full outline-0 border-0 focus:outline-none focus:border-none"></div>
+            <div class="flex items-center justify-center gap-1 border border-gray-400 p-1 rounded-xl"><i class="fa-solid fa-envelope" style="color: #74C0FC;"></i><input type="email" placeholder="Email" id="emailInput" class=" p-2 rounded-lg w-full outline-0 border-0 focus:outline-none focus:border-none"></div>
+            <div class="flex items-center justify-center gap-1 border border-gray-400 p-1 rounded-xl"><i class="fa-solid fa-phone" style="color: #74C0FC;"></i><input type="number" placeholder="Contact" id="contactInput" class=" p-2 rounded-lg w-full outline-0 border-0 focus:outline-none focus:border-none"></div>
+            <textarea name="" placeholder="Message...." maxlength="100" rows="4" cols="50" id="textArea" class="bg-gray-100 p-2 rounded-lg"></textarea>
+                <input type="submit" value="Send" class="w-full p-1.5 rounded-lg text-white hover:opacity-90 cursor-pointer" id="sendBtn" style="background-color: rgb(95, 188, 188);">
+            <!-- <button class="w-full p-1.5 rounded-lg text-white" id="sendBtn" style="background-color: rgb(95, 188, 188);">Send</button> -->
+        </div>
+    </legend>
+    </form>
+    </div>
+
+</div>
+<script src="contact.js"></script>
+</body>
+
+</html>

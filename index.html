@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!--Tailwind CSS cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Short Intro -->
+    <div style="background-color: lightcyan;" class="flex flex-col ml-5 mr-5 mt-3 border rounded-xl">
+        <div>
+
+            <div class="p-5 flex">
+                <h1 class="text-6xl text-gray-800">Thilaga P, Full-stack (MERN) developer</h1>
+
+            </div>
+
+
+            <div class="flex justify-between pl-5 mb-5 gap-3">
+                <p class="text-gray-600 text-xl">Let me help you make the right moves for your business.</p>
+                <button id="emailbtn"
+                    class="border border-black p-3 mr-16 hover hover:bg-black hover:text-white transition duration-500">Email
+                    Me!</button>
+            </div>
+        </div>
+
+        <div class="background-container w-full ">
+
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="animated-container2 ml-5 mr-5 mt-3 flex flex-col md:flex-row p-5 gap-8 justify-around items-center"
+        style="background-color: rgba(244, 181, 156, 0.587);">
+
+        <div class="flex flex-col justify-center w-full md:w-1/2 text-center md:text-left">
+            <h2 class="text-3xl mb-4">About Me!</h2>
+            <p class="text-xl" style="color:rgb(95, 188, 188);">
+                Hi, I'm a passionate Full-Stack Developer skilled in MongoDB, Express.js, React, and
+                Node.js (MERN stack). I love building dynamic, scalable web applications and constantly learning new
+                technologies.
+            </p>
+        </div>
+
+        <div class="w-full md:w-1/2 text-center">
+            <img src="./images/laptop-7723139_1280.jpg" class="w-6/12 border rounded-xl border-black inline-flex"
+                alt="Laptop Image">
+        </div>
+
+    </div>
+
+
+
+    <!-- Projects -->
+    <div class="animated-container flex flex-col justify-between border rounded-xl items-center basis-4 grow p-5 gap-4 ml-5 mr-5 mt-2 md:flex-row"
+        style="background-color: lightcyan;">
+
+        <div class="text-3xl flex-1 text-center">
+            Projects
+        </div>
+
+        <div class="flex flex-col flex-1 items-center">
+            <a href="https://thilaga2022.github.io/Udemy/" target="_blank">
+                <p title="Click Me!"
+                    class="bg-black hover:text-black hover:bg-transparent text-white p-2 text-lg border rounded-lg text-center">
+                    Udemy Clone
+                </p>
+            </a>
+            <p class="border border-black rounded-lg p-5 text-center">
+                Created Udemy clone using HTML & CSS where you can upskill yourself!
+            </p>
+        </div>
+
+        <div class="flex flex-col flex-1 items-center">
+            <a href="https://thilaga2022.github.io/greenden-tailwind/" target="_blank">
+                <p title="Click Me!"
+                    class="bg-black hover:text-black hover:bg-transparent text-white p-2 text-lg border rounded-lg text-center">
+                    Greenden Project
+                </p>
+            </a>
+            <p class="border border-black rounded-lg p-5 text-center">
+                Created responsive E-commerce website for plants store using HTML, CSS & JS
+            </p>
+
+        </div>
+
+        <div class="flex flex-col flex-1 items-center">
+            <a href="https://thilaga2022.github.io/greenden-tailwind/" target="_blank">
+                <p title="Click Me!"
+                    class="bg-black hover:text-black hover:bg-transparent text-white p-2 text-lg border rounded-lg text-center w-full">
+                    Nostra
+                </p>
+            </a>
+            <p class="border border-black rounded-lg p-5 text-center">
+                Created responsive E-commerce website for clothing store using HTML, CSS & JS
+            </p>
+
+        </div>
+
+
+    </div>
+
+    <!-- Testimonals -->
+    <div class="flex flex-col ml-5 mr-5 mt-3 p-5">
+        <h1 class="text-3xl flex-1 text-center">Client Testimonials</h1>
+        <div class="flex flex-col items-center gap-3 testimonials p-5 mt-5 md:flex-row">
+            <div class="bg-gray-300 flex flex-col text-center p-5 border rounded-xl item relative">
+                <!-- <img src="./images/Client1.jpg " class="w-20 border rounded-2xl absolute inline" style="right: 42%; top:-25%"> -->
+                <p class="font-bold ">C1ient 1,</p>
+                <p class="font-bold">Artist</p>
+                <p class="pt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ea tempore sint ut,
+                    nam
+                    suscipit. Corrupti magni voluptas, itaque inventore, ea odit placeat deleniti atque illo iure neque
+                    quasi obcaecati?</p>
+            </div>
+            <div class="bg-gray-300 flex flex-col text-center p-5 border rounded-xl item relative">
+                <!-- <img src="./images/Client2.jpg " class="w-20 border rounded-2xl absolute inline" style="right: 42%; top:-25%"> -->
+                <p class="font-bold ">C1ient 2,</p>
+                <p class="font-bold">Consultant</p>
+                <p class="pt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ea tempore sint ut,
+                    nam
+                    suscipit. Corrupti magni voluptas, itaque inventore, ea odit placeat deleniti atque illo iure neque
+                    quasi obcaecati?</p>
+            </div>
+            <div class="bg-gray-300 flex flex-col text-center p-5 border rounded-xl item relative">
+                <!-- <img src="./images/Client3.jpg " class="w-20 border rounded-2xl absolute inline" style="right: 42%; top:-25%"> -->
+                <p class="font-bold ">C1ient 3,</p>
+                <p class="font-bold">CEO of X</p>
+                <p class="pt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate ea tempore sint ut,
+                    nam
+                    suscipit. Corrupti magni voluptas, itaque inventore, ea odit placeat deleniti atque illo iure neque
+                    quasi obcaecati?</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- script -->
+     <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+.scale-icon {
+    padding: 2px;
+    border: 2px solid transparent;
+    border-radius: 5px; /* or 5px for square */
+    transition: border 0.3s ease, transform 0.3s ease;
+  }
+  
+  .scale-icon:hover {
+    border: 2px solid rgb(86, 152, 152); /* or any color */
+    transform: scale(1.1);     /* optional scale effect */
+  }
